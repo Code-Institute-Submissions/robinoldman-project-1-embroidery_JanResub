@@ -15,3 +15,27 @@ color: black;  }
 
 #logo {float:left;
 font-size: 190% ;}
+
+#menu { font-size: 130%;
+    letter-spacing: 3px;}
+
+#menu li {float:right;
+list-style-type: none;
+margin-right: 25px;}
+
+#menu a {
+    text-decoration: none;
+    color: firebrick;}
+
+#menu, #logo {line-height: 75px;}
+
+#menu a:hover{border-bottom: 2px solid grey;}
+
+.active {border-bottom: 2px solid grey;}
+
+#hero-image {
+    height: 400px;
+    width:100%;
+    background: url('../images/hero.jpg') no-repeat center center;
+    background-size: cover;
+}
