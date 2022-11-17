@@ -143,3 +143,15 @@ h2 {
     font-size: 150%;
 }
 
+footer {height: 130px;}
+
+.social-networks {text-align: center;}
+
+.social-networks > li {display:inline; }
+
+.social-networks i {
+    font-size: 110%;
+    margin :2%;
+    padding: 4%;
+    color: #333;
+}
