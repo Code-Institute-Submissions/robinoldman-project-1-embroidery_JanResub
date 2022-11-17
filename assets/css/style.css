@@ -155,3 +155,10 @@ footer {height: 130px;}
     padding: 4%;
     color: #333;
 }
+
+#photos-gallery {clear: both; 
+column-count: 4;
+ }
+
+ #photos-gallery > img {width: 100%;}
+
