@@ -100,7 +100,7 @@ h2 {
 #rich-photo {
     background-image: url(../images/ich.jpeg);
     background-size: cover;
-    width: 30%;
+    width: 33.3%;
     overflow: hidden;
     background-position: center;
 }
@@ -110,7 +110,7 @@ h2 {
 #luke-photo {
     background-image: url(../images/luke.jpeg);
     background-size: cover;
-    width: 30%;
+    width: 33.3%;
     overflow: hidden;
     background-position: center;
 }
@@ -126,16 +126,20 @@ h2 {
 #people div {
     color: rgb(255, 253, 253);
     height: 200px;
+    width: 33.3%;
     float: left;
     padding: 10px 0 0 10px;
     text-align: center;
     border: 5px solid white;
     box-sizing: border-box;
     font-family: spectral, sans-serif;
+    font-weight: 300;
+    
 }
 
 #people h2 {
-    color: wheat;
+    color: rgb(255, 255, 255);
     font-weight: bold;
     font-size: 150%;
 }
+
