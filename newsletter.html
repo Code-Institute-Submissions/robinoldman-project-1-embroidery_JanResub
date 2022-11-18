@@ -22,26 +22,36 @@
             <li><a href="index.html">home</a></li>
         </ul>
     </nav>
-</header>
+</header> 
 
-</body>
-<form method="post"
-action="https://formdump.codeinstitute.net">
+<div class="form-intro" id="form-intro">
+    We are passionate about our work and would love to keep you updated. 
+    PLease enter your name, email and which artform you are interested in, 
+    to receive our monthly newsletter.
+</div>
 
+<form id="form" method="post" 
+action="https://formdump.codeinstitute.net" >
+<div>
     <label for="name">Name:</label>
-    <input type="name" name="name" placeholder="Enter your name">
-    <label for= "email">email</label>
-    <input type="email" name="email" placeholder="Enter yourEmail">
-    
-
-    <input type="radio" id="embroidery" name="embroidery" value="embroidery">
+    <input class="boxed" type="name" name="name" placeholder="Enter your name">
+    </div>
+<div>
+    <label for= "email">Email:</label>
+    <input class="boxed" type="email" name="email" placeholder="Enter your Email">
+</div>
+<div>
+    <label for="fav-medium">Which medium would you like to be updated on?</label></div>
+   <div> <input type="radio" id="embroidery" name="embroidery" value="embroidery">
 <label for="embroidery">embroidery</label><br>
 <input type="radio" id="watercolour" name="watercolour" value="watercolour">
-<label for="watercolour">watercolour</label><br>
+<label for="watercolour">watercolour</label><br></div>
 
-<input type="submit">
+<input type="submit" class="form-submit-button">
 </form>
-</form>
+
+
+</body>
         
 <footer>
 <ul class="social-networks">
