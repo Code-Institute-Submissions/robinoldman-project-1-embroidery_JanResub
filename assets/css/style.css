@@ -221,4 +221,28 @@ footer {
 .scissors {
     text-align: center;
 }
+#artists-together {width:33%;
+margin:auto; color: firebrick ; 
+padding: 20px} 
 
+#circle-picture {
+    width: 250px;
+    height: 200px;
+    padding: 10px;
+    border-style: solid;
+    border-color: firebrick;
+    border-width: 1px;
+    border-radius: 50%;
+    margin: 0 auto;
+
+
+}
+
+#circle-bg {background: url('../images/all-3.jpeg'); 
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    border-radius: 50%;
+    height: 200px;
+    width: 250px;
+border-radius:  50%;}
