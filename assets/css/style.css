@@ -41,7 +41,7 @@ h2 {
     font-size: 130%;
     letter-spacing: 3px;
     height: 75px;
-    
+    background-color: #effffb;
 }
 
 
@@ -260,6 +260,17 @@ padding: 20px}
     width: 250px;
 border-radius:  50%;}
 
+@media screen and (max-width: 950px){
+    .person-info { 
+        width: 65%;
+        height: 250px;
+        padding: 30pz 0;
+        margin: 0%;
+        float:none;
+        
+
+}
+}
 @media screen and (max-width: 950px) {
  
 #menu { clear: left;
@@ -269,3 +280,8 @@ margin-bottom: 20px;
 line-height: 25px
 }
 }
+
+#cover-text {
+    left: 0;
+}
+
