@@ -154,7 +154,7 @@ h2 {
     font-size: 150%;
 }
 
-
+#people { height: 200px;}
 
 footer {
     height: 130px;
@@ -179,13 +179,7 @@ footer {
 
 #photos-gallery {
     clear: both;
-    column-count: 4;
-  
-    
-    
-    
-    
-}
+    column-count: 4;}
 
 .photos-gallery{opacity: 1.0; filter: alpha; (opacity=100)
 ;}
@@ -193,9 +187,6 @@ footer {
 .photos-gallery:hover {opacity: 5.0; filter:grayscale(); (opacity=50)
 ;}
    
-   
-
-    
 #photos-gallery>img {
     width: 100%;
 }
