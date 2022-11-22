@@ -5,22 +5,30 @@
     padding: 0;
     border: none;
 }
-#44b897
+
 body {
     font-family: spectral, sans-serif;
     font-weight: 300;
     color: #333;
+    background-color: #effffb;
 
 }
 
-h1,
+h1
+{
+    font-family: karla, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: black;
+    font-weight: bold;
+}
+
 h2 {
     font-family: karla, sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
-    color: #2c505c;
-    font-weight: bold;
-}
+    color:black;
+    font-weight: bold;}
 
 #logo {
     float: left;
@@ -33,6 +41,7 @@ h2 {
     font-size: 130%;
     letter-spacing: 3px;
     height: 75px;
+    
 }
 
 
@@ -44,12 +53,14 @@ h2 {
 
 #menu a {
     text-decoration: none;
-    color: firebrick;
+    color: #44b897;
 }
+#menu {background-color: ;}
 
 #menu,
 #logo {
     line-height: 75px;
+    
 }
 
 #menu a:hover {
@@ -88,7 +99,7 @@ h2 {
     padding-top: 30px;
     padding-right: 15px;
 
-    background-color: rgba(47, 133, 214, 0.7);
+    background-color: rgba(68, 184, 151, 0.7);
 
     bottom: 30px;
     left: 140px;
@@ -127,7 +138,7 @@ h2 {
     
 }
 
-
+.meet-embroiderers{color: #44b897;}
 
 .people-writing {
     position: absolute;
@@ -187,7 +198,8 @@ footer {
     margin-right: auto;
     width: 300px;
     height: 170px;
-    border: 2px dotted #44b897;
+    border: 2px dotted black;
+    background-color: white;
 }
 
 .boxed {
@@ -195,11 +207,13 @@ footer {
 }
 
 .form-intro {
-    width: 75%;
+    width: 85%;
     margin: 0 auto;
     margin-left: auto;
     margin-right: auto;
-    padding: 20px 20px;
+    padding: 15px 15px;
+    font-family: specttral, sans-serif;
+    color: #2c505c 
 }
 
 .form-submit-button {
