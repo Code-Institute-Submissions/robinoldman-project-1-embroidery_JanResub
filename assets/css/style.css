@@ -134,6 +134,7 @@ h2 {
     font-family: spectral, sans-serif;
     font-weight: 300;
     position: relative;
+    bottom: 50px;
     
     
 }
@@ -170,15 +171,30 @@ h2 {
 .social-networks i {
     font-size: 110%;
     margin: 2%;
-    padding: 4%;
+    
     color: #2c505c;
     
     
 }
 .people-writing h2 {color: white;}
 
-.photos-gallery {width: 300px; height: 300px; margin-left: auto; margin-right: auto;
+.photos-gallery {width: 180px; height: 180px; 
+    padding: 10px 10px;
+    border: 3px grey solid ;
+    bottom: 20px;
+    
 }
+
+#robin-pic {display:flex;
+    justify-content:center}
+
+    #luke-pic {display:flex;
+        justify-content:center}
+
+        #rich-pic {display:flex;
+            justify-content:center}
+            
+
 
 
 #form {
@@ -289,5 +305,5 @@ line-height: 25px
 
 } 
 
-footer {height: 200px;
-background-color: rgb(224, 224, 224);}
+footer {height: 100px;
+background-color: rgb(190, 241, 201);}
