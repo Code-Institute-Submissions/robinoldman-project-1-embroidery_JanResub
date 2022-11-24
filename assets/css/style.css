@@ -124,7 +124,7 @@ h2 {
 
 .person-info {
     color: rgb(255, 253, 253);
-    height: 250px;
+    height: 100%;
     width: 33.3%;
     float: left;
     padding: 10px 0 0 10px;
@@ -176,23 +176,20 @@ h2 {
     
     
 }
+
 .people-writing h2 {color: white;}
 
-.photos-gallery {width: 180px; height: 180px; 
+.gallery-wrapper{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.photos-gallery {width: auto;
+    height: 300px;
     padding: 10px 10px;
     border: 3px grey solid ;
     bottom: 20px;
-    
 }
-
-#robin-pic {display:flex;
-    justify-content:center}
-
-    #luke-pic {display:flex;
-        justify-content:center}
-
-        #rich-pic {display:flex;
-            justify-content:center}
             
 
 
@@ -238,6 +235,7 @@ h2 {
     overflow: hidden;
     text-align: center;
     padding-bottom: 10px;
+    height: 100px;
 }
 
 .scissors {
