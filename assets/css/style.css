@@ -47,6 +47,8 @@ h2 {
     background-color: #effffb;
 }
 
+.embroiderers-intro { font-family: spectral, sans-serif;
+font-size: 150%;}
 
 #menu li {
     float: right;
@@ -243,7 +245,7 @@ h2 {
     overflow: hidden;
     text-align: center;
     color:black;
-    height: 200px;
+    height: 300px;
     margin-left: 300px;
     margin-right: 300px;
 }
