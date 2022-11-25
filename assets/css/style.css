@@ -201,29 +201,34 @@ font-size: 150%;}
 
 
 #form {
-    padding: 70px 70px;
+    padding: 60px 60px;
     margin: 0 auto;
     margin-left: auto;
     margin-right: auto;
-    width: 660px;
-    height: 250px;
+    width: 900px;
+    height: px;
     border: 2px dotted black;
     background-color: white;
-    font-size: 150%;
+    font-size: 130%;
+    font-family: spectral, sans-serif:
 }
 
 .boxed {
     border: 1px solid #44b897;
+    font-size: 70%;
 }
 
-.form-intro {
+#form-intro {
     width: 85%;
-    margin: 0 auto;
+    margin: 0 0 30 0;
     margin-left: auto;
     margin-right: auto;
-    padding: 15px 15px;
-    font-family: specttral, sans-serif;
-    color: #2c505c 
+   
+    padding: 15px 15px 15px 15px;
+    font-family: spectral, sans-serif;
+    color: #2c505c;
+    font-size: 150%;
+    ;
 }
 
 
