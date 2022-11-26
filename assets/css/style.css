@@ -6,6 +6,11 @@
     border: none;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+}
+
 header {
     height: 110px;
 }
@@ -96,7 +101,6 @@ h2 {
     font-weight: bold;
     text-align: center;
     width: 300px;
-    height: 150px;
     padding-top: 30px;
     padding-right: 15px;
     background-color: rgba(68, 184, 151, 0.7);
@@ -124,12 +128,10 @@ h2 {
     float: left;
     padding: 10px 0 0 10px;
     text-align: center;
-    border: 5px solid white;
     box-sizing: border-box;
     font-family: spectral, sans-serif;
     font-weight: 300;
     position: relative;
-    bottom: 50px;
 }
 
 .people-writing {
@@ -144,10 +146,6 @@ h2 {
     color: rgb(255, 255, 255);
     font-weight: bold;
     font-size: 150%;
-}
-
-#people {
-    height: 400px;
 }
 
 .social-networks {
