@@ -198,7 +198,8 @@ font-size: 150%;}
     
             
 
-
+.gallery-names {text-align: center;
+   padding: 20, 0 20, 0 }
 
 #form {
     padding: 60px 60px;
@@ -250,9 +251,9 @@ font-size: 150%;}
     overflow: hidden;
     text-align: center;
     color:black;
-    height: 300px;
-    margin-left: 300px;
-    margin-right: 300px;
+    height: 270px;
+    margin: 0 auto;
+max-width: 700px;
 }
 
 .scissors {
