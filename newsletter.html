@@ -38,20 +38,20 @@
         <form id="form" method="post" action="https://formdump.codeinstitute.net">
             <div>
                 <label for="name">Name:</label>
-                <input class="boxed" type="name" name="name" placeholder="Enter your name">
+                <input id="name" class="boxed" type="text" placeholder="Enter your name">
             </div>
             <div>
                 <label for="email">Email:</label>
-                <input class="boxed" type="email" name="email" placeholder="Enter your Email">
+                <input id="email" class="boxed" type="email" name="email" placeholder="Enter your Email">
             </div>
             <div>
                 <label for="fav-medium">Would you like to showcase your work or buy exhisting work?</label></div>
-            <div> <input type="radio" id="buy" name="buy" value="buy">
+            <div> <input type="radio" id="fav-medium" name="buy" value="buy">
                 <label for="buy">buy</label><br>
-                <input type="radio" id="showcase" name="showcase" value="showcase">
+                <input type="radio" id="buy" name="showcase" value="showcase">
                 <label for="showcase">showcase</label><br></div>
 
-            <input type="submit" class="form-submit-button">
+            <input id="showcase" type="submit" class="form-submit-button">
         </form>
     </div>
     <div id="artists-together">
