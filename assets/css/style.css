@@ -6,18 +6,18 @@
     border: none;
 }
 
-header {height: 110px;}
+header {
+    height: 110px;
+}
 
 body {
     font-family: spectral, sans-serif;
     font-weight: 300;
     color: #333;
     background-color: #effffb;
-
 }
 
-h1
-{
+h1 {
     font-family: karla, sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -29,8 +29,9 @@ h2 {
     font-family: karla, sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
-    color:black;
-    font-weight: bold;}
+    color: black;
+    font-weight: bold;
+}
 
 #logo {
     float: left;
@@ -38,17 +39,16 @@ h2 {
     padding-left: 10px;
 }
 
-
-
 #menu {
     font-size: 130%;
     letter-spacing: 3px;
-   
     background-color: #effffb;
 }
 
-.embroiderers-intro { font-family: spectral, sans-serif;
-font-size: 150%;}
+.embroiderers-intro {
+    font-family: spectral, sans-serif;
+    font-size: 150%;
+}
 
 #menu li {
     float: right;
@@ -60,12 +60,10 @@ font-size: 150%;}
     text-decoration: none;
     color: #44b897;
 }
-#menu {background-color: ;}
 
 #menu,
 #logo {
     line-height: 75px;
-    
 }
 
 #menu a:hover {
@@ -91,42 +89,32 @@ font-size: 150%;}
     font-weight: bolder;
 }
 
-
-
 #cover-text {
     font-size: 110%;
     font-family: spectral, sans-serif;
     letter-spacing: 3px;
     font-weight: bold;
     text-align: center;
-
     width: 300px;
     height: 150px;
-
     padding-top: 30px;
     padding-right: 15px;
-
     background-color: rgba(68, 184, 151, 0.7);
-
     bottom: 30px;
     left: 140px;
-
     position: absolute;
 }
-
 
 .person-photo {
     height: 100%;
     width: 100%;
     object-fit: cover;
-    opacity: 1.0; filter:blur() (opacity=100);
-    
-   
+    opacity: 1.0;
 }
 
 .person-photo:hover {
-   opacity: 0.5; filter:alpha; (opacity=50); background-color: #44b897;  
-   
+    opacity: 0.5;
+    background-color: #44b897;
 }
 
 .person-info {
@@ -142,10 +130,7 @@ font-size: 150%;}
     font-weight: 300;
     position: relative;
     bottom: 50px;
-    
-    
 }
-
 
 .people-writing {
     position: absolute;
@@ -153,18 +138,17 @@ font-size: 150%;}
     left: 20%;
     text-align: left;
     background-color: rgba(55, 50, 53, 0.58);
-    
 }
 
 #people h2 {
-    color: rgb (255, 255, 255);
+    color: rgb(255, 255, 255);
     font-weight: bold;
     font-size: 150%;
 }
-#people{height: 400px;}
 
-
-
+#people {
+    height: 400px;
+}
 
 .social-networks {
     text-align: center;
@@ -177,29 +161,31 @@ font-size: 150%;}
 .social-networks i {
     font-size: 110%;
     margin: 2%;
-    
     color: #2c505c;
-    
-    
 }
 
-.people-writing h2 {color: white;}
+.people-writing h2 {
+    color: white;
+}
 
-.gallery-wrapper{
-    display:flex;
+.gallery-wrapper {
+    display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
-.photos-gallery {width: auto;
+
+.photos-gallery {
+    width: auto;
     height: 300px;
     padding: 10px 10px;
-    border: 3px grey solid ;
-    bottom: 20px;}
-    
-            
+    border: 3px grey solid;
+    bottom: 20px;
+}
 
-.gallery-names {text-align: center;
-   padding: 20, 0 20, 0 }
+.gallery-names {
+    text-align: center;
+    padding: 20px 0 20px 0;
+}
 
 #form {
     padding: 60px 60px;
@@ -207,11 +193,10 @@ font-size: 150%;}
     margin-left: auto;
     margin-right: auto;
     width: 900px;
-    height: px;
     border: 2px dotted black;
     background-color: white;
     font-size: 130%;
-    font-family: spectral, sans-serif:
+    font-family: spectral, sans-serif;
 }
 
 .boxed {
@@ -221,18 +206,15 @@ font-size: 150%;}
 
 #form-intro {
     width: 85%;
-    margin: 0 0 30 0;
+    margin: 0 0 30px 0;
     margin-left: auto;
     margin-right: auto;
-   
     padding: 15px 15px 15px 15px;
     font-family: spectral, sans-serif;
     color: #2c505c;
     font-size: 150%;
     ;
 }
-
-
 
 .form-submit-button {
     background: rgba(47, 133, 214, 0.7);
@@ -250,18 +232,22 @@ font-size: 150%;}
 .meet-embroiderers {
     overflow: hidden;
     text-align: center;
-    color:black;
+    color: black;
     height: 270px;
     margin: 0 auto;
-max-width: 700px;
+    max-width: 700px;
 }
 
 .scissors {
     text-align: center;
 }
-#artists-together {width:33%;
-margin:auto; color: #44b897 ; 
-padding: 20px} 
+
+#artists-together {
+    width: 33%;
+    margin: auto;
+    color: #44b897;
+    padding: 20px
+}
 
 #circle-picture {
     width: 250px;
@@ -272,54 +258,54 @@ padding: 20px}
     border-width: 1px;
     border-radius: 50%;
     margin: 0 auto;
-
-
 }
 
-#circle-bg {background: url('../images/all-3.jpeg'); 
+#circle-bg {
+    background: url('../images/all-3.jpeg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center;
     border-radius: 50%;
     height: 200px;
     width: 250px;
-border-radius:  50%;}
-
-@media screen and (max-width: 950px){
-    .person-info { 
-        width: 65%;
-        height: 250px;
-        padding: 30pz 0;
-        margin: 0%;
-        float:none;
-        
-
-}
+    border-radius: 50%;
 }
 
 @media screen and (max-width: 950px) {
- 
-#menu { clear: left;
-    float: left;
-    margin-left: 30px;
-margin-bottom: 20px;
-line-height: 25px
+    .person-info {
+        width: 65%;
+        height: 250px;
+        padding: 30px 0;
+        margin: 0%;
+        float: none;
+    }
 }
 
+@media screen and (max-width: 950px) {
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px
+    }
 
-#cover-text {
-    left: 0;
-}
+    #cover-text {
+        left: 0;
+    }
 
-#photos-gallery { column-count: 3;}
-
+    #photos-gallery {
+        column-count: 3;
+    }
 }
 
 @media screen and (max-width: 800px) {
+    #photos-gallery {
+        column-count: 2;
+    }
+}
 
-    #photos-gallery { column-count: 2;}
-
-} 
-
-footer {height: 100px;
-background-color: rgb(190, 241, 201);}
+footer {
+    height: 100px;
+    background-color: rgb(190, 241, 201);
+}
