@@ -190,7 +190,7 @@ h2 {
     margin: 0 auto;
     margin-left: auto;
     margin-right: auto;
-    width: 900px;
+    max-width: 900px;
     border: 2px dotted black;
     background-color: white;
     font-size: 130%;
@@ -241,7 +241,6 @@ h2 {
 }
 
 #artists-together {
-    width: 33%;
     margin: auto;
     color: #44b897;
     padding: 20px
