@@ -185,11 +185,13 @@ h2 {
     padding: 20px 0 20px 0;
 }
 
+#form-container {
+    margin: 0 auto;
+}
+
 #form {
     padding: 60px 60px;
-    margin: 0 auto;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 20px;
     max-width: 900px;
     border: 2px dotted black;
     background-color: white;
@@ -231,7 +233,6 @@ h2 {
     overflow: hidden;
     text-align: center;
     color: black;
-    height: 270px;
     margin: 0 auto;
     max-width: 700px;
 }
