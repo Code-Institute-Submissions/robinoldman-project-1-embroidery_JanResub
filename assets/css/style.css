@@ -82,7 +82,7 @@ h2 {
 #hero-image {
     height: 400px;
     width: 100%;
-    background: url('../images/hero.jpg') no-repeat center center;
+    background: url('../images/hero-3.webp') no-repeat center center;
     background-size: cover;
     overflow: hidden;
     position: relative;
@@ -259,7 +259,7 @@ h2 {
 }
 
 #circle-bg {
-    background: url('../images/all-3.jpeg');
+    background: url('../images/all-3.webp');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center;
