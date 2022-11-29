@@ -5,11 +5,11 @@
 
 **ABOUT THE PROJECT**
 
-Embroidery club is an unreal project created for my PP1 with Code Institute. Embroidery club is a website creating an online community for artists. It has been created to showcase local artist's work as well as encourage an online community.
+Embroidery club is an unreal project created for my PP1 with Code Institute. Embroidery club is a website creating an online community for artists. It has been created to showcase local artist's work as well as to encourage an online community.
 
 **ABOUT THE WEBSITE**
 
-The Web site is a simple 3 page website that allows local artists to showcase and sell their work. It has a simple and easy to navigate homepage which demonstrates the purpose of the site. It hives a brief outline of local artists and provides links to the gallery. The Gallery page provides a selection of artwork. Each artwork has a description of the picture which can be seen when hovered over. The website also has a page where local artists can submit a query, either to buy artwork or have their artwork showcased.
+The Web site is a simple 3 page website that allows local artists to showcase and sell their work. It has a simple and easy-to-navigate homepage which demonstrates the purpose of the site. It gives a brief outline of local artists and provides links to the gallery. The Gallery page provides a selection of artwork. Each artwork has a description of the picture which can be seen when hovered over. The website also has a page where local artists can submit a query, either to buy artwork or have their artwork showcased.
 
 **INDEX**
 
@@ -78,11 +78,13 @@ Contact page
 
 **IMAGES**
 
-The hero image has been chosen to inform the visitor what the website is about. It has a homely, artisan aesthetic help
+The hero image has been chosen to inform the visitor what the website is about. It has a homely, artisan aesthetic to help give the website an ethos.
 
 **COLOR SCHEME**
 
-The color scheme is based on the main hero images with a mixture of pastel greens. This was created using 'coolors.com' ![](RackMultipart20221129-1-ldb1so_html_38ab8329ed71ae8f.png)
+The color scheme is based on the main hero images with a mixture of pastel greens. This was created using 'coolors.com' 
+
+![alt text](../project-1-embroidery/readme%20photos/patelle.png)
 
 Color palette of hero image
 
@@ -166,7 +168,7 @@ This area has been given a contrasting color of a darker green to help seperatr 
 
 1. BROWSERS
 
-I tested how the website looks in these different browsers while using Google Chrome as the main browser for testing and the DevTools for any appropriate change. I also texted all pages on a range of devices. All worked well and had no issues.
+I tested how the website loked in different browsers. Firefox was the main browser. I used dev tools to resize the screen. I also wrote text on all pages on a range of devices. This worked well and I had no issues.
 
 Google Chrome Version 107.0.5304.87 (Official Build) (arm64)
 
@@ -195,7 +197,9 @@ The form has method = post and the information is sent to: https://formspree.io/
 
 **ISSUES DURING TESTING**
 
-The issues during testing were through lighthouse. Performance and accessibility previously had scores of 86 and 84. Lighthouse picked out large photo sizes as an issue as well as small menu text when screen size was reduced. I compressed all images and converted them to webp files. This allowed the website to perform much better. I also changed the color of the menu font. This allowed it to be viewed more clearly.
+The issues during testing were through lighthouse. Performance and accessibility previously had scores of 86 and 84. Lighthouse picked out large photo sizes as an issue. I compressed all images and converted them to webp files. This allowed the website to perform much better. I also changed the color of the menu font. This allowed it to be viewed more clearly.
+
+During testing I also found that the menu was too small when being used on mobile devices. I changed the size of the menu to make it more acessable. 
 
 **DEPLOYMENT**
 
