@@ -118,7 +118,7 @@ The navigation bar consists of a logo home gallery and newsletter form. The menu
 
 - **HOME SECTION**
 
-The hero image is used for impact when visiting the site. It has a text informing the site visitor of the purpose of the site. The text pox moves to the left of the screen after the screen has been reduced to 950px to make it easier to read on smaller devices.
+The hero image is used for impact when visiting the site. It has a text informing the site visitor of the purpose of the site. The text box moves to the left of the screen after the screen has been reduced to 950px to make it easier to read on smaller devices.
 
 ![alt text](../project-1-embroidery/readme%20photos/hero.jpg)
 
@@ -130,7 +130,7 @@ This section outlines 3 local artists being showcased. Each picture shows the na
 
 - **Forms section**
 
-The form section allows the user to request information on buying art or showcasing art. It allows the user to enter their name and email address to request information. Each box has a placeholder text. The form also has a radio button so the user can select if they would like to buy or showcase art. The form has method= "post" and action="[https://formdump.codeinistitute.net](https://formdump.codeinistitute.net/)" for collecting data. Every user's data is sent to the selected email.
+The form section allows the user to request information on buying art or showcasing art. It allows the user to enter their name and email address to request information. Each box has a placeholder text. The form also has a radio button so the user can select it if they would like to buy or showcase art. The form has method= "post" and action="[https://formdump.codeinistitute.net](https://formdump.codeinistitute.net/)" for collecting data. Every user's data is sent to the selected email.
 
 ![alt text](../project-1-embroidery/readme%20photos/form.png)
 
