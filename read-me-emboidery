@@ -1,10 +1,7 @@
 # **Embroidery Club**
 
-![](RackMultipart20221129-1-ldb1so_html_33012755879bd7cd.png)
+![alt text](../project-1-embroidery/readme%20photos/preview.png)
 
-[
-# **live project**
-](https://robinoldman.github.io/project-1-embroidery/)
 
 **ABOUT THE PROJECT**
 
@@ -115,40 +112,45 @@ The fonts Karla and Spectral were used throughout the website. Karla was used fo
 
 The navigation bar consists of a logo home gallery and newsletter form. The menu moves to the left after 950px and the menu becomes smaller at 600px
 
-![](RackMultipart20221129-1-ldb1so_html_8ce2bd348cba1772.png)
- ![Shape1](RackMultipart20221129-1-ldb1so_html_49ac0cb03196381.gif)
+![alt text](../project-1-embroidery/readme%20photos/nav.png)
 
 - **HOME SECTION**
 
 The hero image is used for impact when visiting the site. It has a text informing the site visitor of the purpose of the site. The text pox moves to the left of the screen after the screen has been reduced to 950px to make it easier to read on smaller devices.
 
-![](RackMultipart20221129-1-ldb1so_html_bce603b923c41eab.png)
+![alt text](../project-1-embroidery/readme%20photos/hero.jpg)
 
 - **Meet the Embroiderers section**
 
 This section outlines 3 local artists being showcased. Each picture shows the name of the artist and each medium that they use. Each picture is a clickable link that takes you to the gallery. Each picture takes you to the specific area of the gallery that is specific to that artist.
 
-![](RackMultipart20221129-1-ldb1so_html_be5127752c4348bc.png)
+![alt text](../project-1-embroidery/readme%20photos/people.png)
 
 - **Forms section**
 
 The form section allows the user to request information on buying art or showcasing art. It allows the user to enter their name and email address to request information. Each box has a placeholder text. The form also has a radio button so the user can select if they would like to buy or showcase art. The form has method= "post" and action="[https://formdump.codeinistitute.net](https://formdump.codeinistitute.net/)" for collecting data. Every user's data is sent to the selected email.
 
-![](RackMultipart20221129-1-ldb1so_html_abbff337d63cc303.png)
+![alt text](../project-1-embroidery/readme%20photos/form.png)
 
 - **GALLERY SECTION**
 - From 600px devices
 
-![](RackMultipart20221129-1-ldb1so_html_8204214f67463f22.png)
+![alt text](../project-1-embroidery/readme%20photos/500px.png)
 
 - From 950px devices ![](RackMultipart20221129-1-ldb1so_html_eed09c44dab13bff.png)
 
+![alt text](../project-1-embroidery/readme%20photos/900px.png)
 
-- F ![](RackMultipart20221129-1-ldb1so_html_f46dc62e89ccfc56.png) rom 1270px devices
+from 1270px devices
+
+![alt text](../project-1-embroidery/readme%20photos/1500.png)
+
 
 - **FOOTER**
 
 This area has been given a contrasting color of a darker green to help seperatr the relevant social media links
+
+![alt text](../project-1-embroidery/readme%20photos/footer.png)
 
 **TESTING**
 
@@ -156,33 +158,26 @@ This area has been given a contrasting color of a darker green to help seperatr 
   - Html validation
   - Passed all checks
 
-![](RackMultipart20221129-1-ldb1so_html_fe7b531fa42b24d1.png)
+![alt text](../project-1-embroidery/readme%20photos/html.png)
 
 - Css validation passed all checks
 
-[![](RackMultipart20221129-1-ldb1so_html_db11a2362e95c1d1.png)](https://github.com/iama3191/Summer-kindness-camp/blob/main/documentation/testing/css-validator.png)
+![alt text](../project-1-embroidery/readme%20photos/css.png)
 
 1. BROWSERS
 
 I tested how the website looks in these different browsers while using Google Chrome as the main browser for testing and the DevTools for any appropriate change. I also texted all pages on a range of devices. All worked well and had no issues.
 
-- Google Chrome Version 107.0.5304.87 (Official Build) (arm64)
+Google Chrome Version 107.0.5304.87 (Official Build) (arm64)
 
 Mozilla Firefox 106.0.3 (64-bit)
 
-Google Chrome
-
-![](RackMultipart20221129-1-ldb1so_html_e97ae3ae854bb154.png)
-
-Mozilla Firefox
-
-![](RackMultipart20221129-1-ldb1so_html_74be0db9d293037d.png)
 
 1. LIGHTHOUSE
 
 I used Lighthouse for testing: Performance, Best Practices, Accessibility, and SEO.
 
-![](RackMultipart20221129-1-ldb1so_html_d8769664119b2210.png)
+![alt text](../project-1-embroidery/readme%20photos/lighthouse.png)
 
 Performance and accessibility previously had scores of 86 and 84. Lighthouse picked out large photo sizes as an issue as well as small menu text when screen size was reduced. I compressed all images and converted them to webp files. This allowed the website to perform much better. I also changed the color of the menu font. This allowed it to be viewed more clearly.
 
@@ -192,15 +187,15 @@ The form has method = post and the information is sent to: https://formspree.io/
 
 1. I wrote in my own information and received this as a message.
 
-![](RackMultipart20221129-1-ldb1so_html_1b8b3237a465389f.png)
+![alt text](../project-1-embroidery/readme%20photos/conformation.png)
 
 1. I received a notification from my formspree account showing what information had been requested.
 
-![](RackMultipart20221129-1-ldb1so_html_ec8f4fde8bae29db.png)
+![alt text](../project-1-embroidery/readme%20photos/received.png)
 
 **ISSUES DURING TESTING**
 
-The only issues during testing were through lighthouse. Performance and accessibility previously had scores of 86 and 84. Lighthouse picked out large photo sizes as an issue as well as small menu text when screen size was reduced. I compressed all images and converted them to webp files. This allowed the website to perform much better. I also changed the color of the menu font. This allowed it to be viewed more clearly.
+The issues during testing were through lighthouse. Performance and accessibility previously had scores of 86 and 84. Lighthouse picked out large photo sizes as an issue as well as small menu text when screen size was reduced. I compressed all images and converted them to webp files. This allowed the website to perform much better. I also changed the color of the menu font. This allowed it to be viewed more clearly.
 
 **DEPLOYMENT**
 
@@ -211,7 +206,7 @@ The only issues during testing were through lighthouse. Performance and accessib
 3. On the main page on the branch section click 'main' and save
 4. The page should now be available on the github pages section above
 
-![](RackMultipart20221129-1-ldb1so_html_28e782d74f204bda.png)
+
 
 - **HOW TO CLONE THIS SITE**
 
