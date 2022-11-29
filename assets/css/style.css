@@ -313,10 +313,10 @@ h2 {
 
 @media screen and (max-width: 600px) {
     #logo {
-        font-size: 20px;
+        font-size: 1.25rem;
     }
     #menu {
-        font-size: 18px;
+        font-size: 1.125rem;
     }
 
     .photos-gallery {
