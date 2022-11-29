@@ -9,6 +9,9 @@
 body {
     display: flex;
     flex-direction: column;
+    max-width: 1800;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 header {
@@ -170,7 +173,10 @@ h2 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    
 }
+
+#gallery-wrapper { padding: min(15px, 5%);}
 
 .photos-gallery {
     width: auto;
@@ -202,6 +208,8 @@ h2 {
 .boxed {
     border: 1px solid #44b897;
     font-size: 70%;
+    padding: 8px 15px;
+    margin-bottom: 15px;
 }
 
 #form-intro {
