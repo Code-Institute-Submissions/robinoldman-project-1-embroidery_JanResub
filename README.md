@@ -236,7 +236,7 @@ HOW THIS SITE WAS DEPLOYED
 
 
 
-- ## HOW TO CLONE THIS SITE
+## HOW TO CLONE THIS SITE
 
 1. Go to Git hub and navigate to the main page of the repository
 2. On the menu , click Code.
@@ -252,13 +252,14 @@ By forking the GitHub Repository, you can make a copy of the original repository
 
 Log into GitHub and locate the GitHub Repository. At the top of the Repository there is a "Fork" button about the "Settings" button on the menu. You should now have a new copy of the original repository in your own GitHub account.
 
-##CREDITS
+## CREDITS
 
 - ## CODE
   - The homepage layout was inspired by the project [Love Running](https://github.com/Code-Institute-Org/love-running-rebuild/blob/master/unit-18-added-gallery-contents/assets/css/style.css) by [Code Institute](https://codeinstitute.net/global/) . I then later edited and changed the page
   - I used this tutorial to help me with cantering all my images in the home page and the newsletter. [https://blog.hubspot.com/website/center-an-image-in-html](https://blog.hubspot.com/website/center-an-image-in-html)
   - I use this tutorial [https://www.w3schools.com/howto/howto\_css\_bottom\_nav.asp](https://www.w3schools.com/howto/howto_css_bottom_nav.asp) to help me anchor my footer to the bottom of the page
-- **MEDIA**
+
+## MEDIA
   - The hero image was from [https://www.freepik.com](https://www.freepik.com/)
 
 ## ACKNOWLEDGMENTS
