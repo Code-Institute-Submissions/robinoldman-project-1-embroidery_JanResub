@@ -1,6 +1,6 @@
 # **Embroidery Club**
 
-![alt text](./readme%20photos/preview.png)
+![preview](./readme%20photos/preview.png)
 
 
 **ABOUT THE PROJECT**
@@ -84,7 +84,7 @@ The hero image has been chosen to inform the visitor what the website is about. 
 
 The color scheme is based on the main hero images with a mixture of pastel greens. This was created using 'coolors.com' 
 
-![alt text](./project-1-embroidery/readme%20photos/patelle.png)
+![color palette](./readme%20photos/patelle.png)
 
 Color palette of hero image
 
@@ -114,45 +114,45 @@ The fonts Karla and Spectral were used throughout the website. Karla was used fo
 
 The navigation bar consists of a logo home gallery and newsletter form. The menu moves to the left after 950px and the menu becomes smaller at 600px
 
-![alt text](./project-1-embroidery/readme%20photos/nav.png)
+![nav bar](./readme%20photos/nav.png)
 
 - **HOME SECTION**
 
 The hero image is used for impact when visiting the site. It has a text informing the site visitor of the purpose of the site. The text box moves to the left of the screen after the screen has been reduced to 950px to make it easier to read on smaller devices.
 
-![alt text](../project-1-embroidery/readme%20photos/hero.jpg)
+![hero](./readme%20photos/hero.jpg)
 
 - **Meet the Embroiderers section**
 
 This section outlines 3 local artists being showcased. Each picture shows the name of the artist and each medium that they use. Each picture is a clickable link that takes you to the gallery. Each picture takes you to the specific area of the gallery that is specific to that artist.
 
-![alt text](./project-1-embroidery/readme%20photos/people.png)
+![people](./readme%20photos/people.png)
 
 - **Forms section**
 
 The form section allows the user to request information on buying art or showcasing art. It allows the user to enter their name and email address to request information. Each box has a placeholder text. The form also has a radio button so the user can select it if they would like to buy or showcase art. The form has method= "post" and action="[https://formdump.codeinistitute.net](https://formdump.codeinistitute.net/)" for collecting data. Every user's data is sent to the selected email.
 
-![alt text](./project-1-embroidery/readme%20photos/form.png)
+![form](./readme%20photos/form.png)
 
 - **GALLERY SECTION**
 - From 600px devices
 
-![alt text](./project-1-embroidery/readme%20photos/500px.png)
+![500px](./readme%20photos/500px.png)
 
 - From 950px devices ![](RackMultipart20221129-1-ldb1so_html_eed09c44dab13bff.png)
 
-![alt text](./project-1-embroidery/readme%20photos/900px.png)
+![900px](./readme%20photos/900px.png)
 
 from 1270px devices
 
-![alt text](./project-1-embroidery/readme%20photos/1500.png)
+![1500px](./readme%20photos/1500.png)
 
 
 - **FOOTER**
 
 This area has been given a contrasting color of a darker green to help seperatr the relevant social media links
 
-![alt text](./project-1-embroidery/readme%20photos/footer.png)
+![footer](./readme%20photos/footer.png)
 
 **TESTING**
 
@@ -160,11 +160,11 @@ This area has been given a contrasting color of a darker green to help seperatr 
   - Html validation
   - Passed all checks
 
-![alt text](./project-1-embroidery/readme%20photos/html.png)
+![html](./readme%20photos/html.png)
 
 - Css validation passed all checks
 
-![alt text](./project-1-embroidery/readme%20photos/css.png)
+![css](./readme%20photos/css.png)
 
 1. BROWSERS
 
@@ -179,7 +179,7 @@ Mozilla Firefox 106.0.3 (64-bit)
 
 I used Lighthouse for testing: Performance, Best Practices, Accessibility, and SEO.
 
-![alt text](./project-1-embroidery/readme%20photos/lighthouse.png)
+![lighthouse](./readme%20photos/lighthouse.png)
 
 Performance and accessibility previously had scores of 86 and 84. Lighthouse picked out large photo sizes as an issue as well as small menu text when screen size was reduced. I compressed all images and converted them to webp files. This allowed the website to perform much better. I also changed the color of the menu font. This allowed it to be viewed more clearly.
 
@@ -189,11 +189,11 @@ The form has method = post and the information is sent to: https://formspree.io/
 
 1. I wrote in my own information and received this as a message.
 
-![alt text](./project-1-embroidery/readme%20photos/conformation.png)
+![form conformation](./readme%20photos/conformation.png)
 
 1. I received a notification from my formspree account showing what information had been requested.
 
-![alt text](./project-1-embroidery/readme%20photos/received.png)
+![form receive](./readme%20photos/received.png)
 
 **ISSUES DURING TESTING**
 
