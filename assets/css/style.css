@@ -191,6 +191,8 @@ h2 {
     padding: 20px 0 20px 0;
 }
 
+/* used this to help me center the images
+https://blog.hubspot.com/website/center-an-image-in-html*/
 #form-container {
     margin: 0 auto;
 }
@@ -237,6 +239,8 @@ h2 {
     margin-bottom: 20px;
 }
 
+/* used this to help me center the images
+https://blog.hubspot.com/website/center-an-image-in-html*/
 .meet-embroiderers {
     overflow: hidden;
     text-align: center;
