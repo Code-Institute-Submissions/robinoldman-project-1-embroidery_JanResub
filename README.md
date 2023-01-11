@@ -1,17 +1,17 @@
-# **Embroidery Club**
+# Embroidery Club
 
 ![preview](./readme%20photos/preview.png)
 
 
-**ABOUT THE PROJECT**
+## ABOUT THE PROJECT
 
 Embroidery club is an unreal project created for my PP1 with Code Institute. Embroidery club is a website creating an online community for artists. It has been created to showcase local artist's work as well as to encourage an online community.
 
-**ABOUT THE WEBSITE**
+## ABOUT THE WEBSITE
 
 The Web site is a simple 3 page website that allows local artists to showcase and sell their work. It has a simple and easy-to-navigate homepage which demonstrates the purpose of the site. It gives a brief outline of local artists and provides links to the gallery. The Gallery page provides a selection of artwork. Each artwork has a description of the picture which can be seen when hovered over. The website also has a page where local artists can submit a query, either to buy artwork or have their artwork showcased.
 
-**INDEX**
+## INDEX
 
 User Experience
 
@@ -27,9 +27,9 @@ Deployment
 
 Credits
 
-**USER EXPERIENCE**
+## USER EXPERIENCE
 
-**STRATEGY**
+## STRATEGY
 
 Reasons for this website:
 
@@ -43,7 +43,7 @@ Reasons a user may visit the website:
 - To sign up to a newsletter
 - To enjoy Artwork to look at
 
-**SCOPE**
+## SCOPE
 
 What a user may expect:
 
@@ -57,7 +57,7 @@ What a user may want:
 - To find out information about local artists
 - To find social media links.
 
-**STRUCTURE**
+## STRUCTURE
 
 The 3 page website contains:
 
@@ -74,13 +74,13 @@ Contact page
 
 - A form which can be filled out to ask for information
 
-**DESIGNS**
+## DESIGNS
 
-**IMAGES**
+## IMAGES
 
 The hero image has been chosen to inform the visitor what the website is about. It has a homely, artisan aesthetic to help give the website an ethos.
 
-**COLOR SCHEME**
+## COLOR SCHEME
 
 The color scheme is based on the main hero images with a mixture of pastel greens. This was created using 'coolors.com' 
 
@@ -88,11 +88,11 @@ The color scheme is based on the main hero images with a mixture of pastel green
 
 Color palette of hero image
 
-**TYPOGRAPHY**
+## TYPOGRAPHY
 
 The fonts Karla and Spectral were used throughout the website. Karla was used for h1 and h2 headings. This gave the headings prominence. Spectral was used for all other text as it compliments Karla and easy to read.
 
-**TECHNOLOGIES USED**
+## TECHNOLOGIES USED
 
 1. Languages used:
   - HTML5
@@ -108,33 +108,33 @@ The fonts Karla and Spectral were used throughout the website. Karla was used fo
   - [GitHub:](https://github.com/) Was used as the repository for the project's code after being pushed from Git.
   - [Formspree](https://formspree.io/forms/xvoynykn/submissions) to link the website form to my email and receive the information that has been sent
 
-**FEATURES**
+## FEATURES
 
-- **NAVIGATION BAR**
+## NAVIGATION BAR
 
 The navigation bar consists of a logo home gallery and newsletter form. The menu moves to the left after 950px and the menu becomes smaller at 600px
 
 ![nav bar](./readme%20photos/nav.png)
 
-- **HOME SECTION**
+## HOME SECTION
 
 The hero image is used for impact when visiting the site. It has a text informing the site visitor of the purpose of the site. The text box moves to the left of the screen after the screen has been reduced to 950px to make it easier to read on smaller devices.
 
 ![hero](./readme%20photos/hero.jpg)
 
-- **Meet the Embroiderers section**
+## Meet the Embroiderers section
 
 This section outlines 3 local artists being showcased. Each picture shows the name of the artist and each medium that they use. Each picture is a clickable link that takes you to the gallery. Each picture takes you to the specific area of the gallery that is specific to that artist.
 
 ![people](./readme%20photos/people.png)
 
-- **Forms section**
+## Forms section
 
 The form section allows the user to request information on buying art or showcasing art. It allows the user to enter their name and email address to request information. Each box has a placeholder text. The form also has a radio button so the user can select it if they would like to buy or showcase art. The form has method= "post" and action="[https://formdump.codeinistitute.net](https://formdump.codeinistitute.net/)" for collecting data. Every user's data is sent to the selected email.
 
 ![form](./readme%20photos/form.png)
 
-- **GALLERY SECTION**
+## GALLERY SECTION
 - From 600px devices
 
 ![500px](./readme%20photos/500px.png)
@@ -148,13 +148,13 @@ from 1270px devices
 ![1500px](./readme%20photos/1500.png)
 
 
-- **FOOTER**
+- ## FOOTER 
 
 This area has been given a contrasting color of a darker green to help seperatr the relevant social media links
 
 ![footer](./readme%20photos/footer.png)
 
-**TESTING**
+## TESTING
 
 1. VALIDATORS
   - Html validation
@@ -195,15 +195,39 @@ The form has method = post and the information is sent to: https://formspree.io/
 
 ![form receive](./readme%20photos/received.png)
 
-**ISSUES DURING TESTING**
+## tests 
+
+|test action|expected outcome|outcome 
+|-----------|--------------|----------------------
+|work on firefox  | no issues  |pass 
+|work on safari            |  no issues         |    pass                    |
+|work on chrome            |     no issues      |    pass                               |                |              |
+|pictures load on all pages| quick loading all pictures appear               |   pass             |
+|menu links|all links lead to correct pages               |   pass             |
+|social media links |all links lead to social media pages                |     pass           |
+|Artist links | all links lead to corect section of gallery               | pass               |
+|gallery speed  |pictures load quickly                | pass               |
+|form sends  | form sends when submit pressed               | pass               |
+|buttons on form | radio button selects              |  pass              |
+|info receives from form | information received in gmail account               |  pass              |
+|menu active  | page  displayed is underlined in menu              | pass               |
+|logo link   |brings back to home page                |   pass             |
+| 600px               | pictures fit to screen and fonts readable               |     pass         |
+| 950px               |  pictures fit to screen and fonts readable              |    pass          |
+|   1270px    | pictures fit to screen and fonts readable       |  pass    |
+
+
+
+
+## ISSUES DURING TESTING
 
 The issues during testing were through lighthouse. Performance and accessibility previously had scores of 86 and 84. Lighthouse picked out large photo sizes as an issue. I compressed all images and converted them to webp files. This allowed the website to perform much better. I also changed the color of the menu font. This allowed it to be viewed more clearly.
 
 During testing I also found that the menu was too small when being used on mobile devices. I changed the size of the menu to make it more acessable. 
 
-**DEPLOYMENT**
+## DEPLOYMENT
 
-**HOW THIS SITE WAS DEPLOYED**
+HOW THIS SITE WAS DEPLOYED
 
 1. Go to the Git hub repository and click on settings
 2. On the left hand menu click on pages
@@ -212,7 +236,7 @@ During testing I also found that the menu was too small when being used on mobil
 
 
 
-- **HOW TO CLONE THIS SITE**
+- ## HOW TO CLONE THIS SITE
 
 1. Go to Git hub and navigate to the main page of the repository
 2. On the menu , click Code.
@@ -220,19 +244,27 @@ During testing I also found that the menu was too small when being used on mobil
 4. Change the current working directory to the location where you want the cloned directory.
 5. type git clone, and then paste the URL you copied earlier.
 
-**CREDITS**
+## FORKING
 
-- **CODE**
+Forking the GitHub Repository
+
+By forking the GitHub Repository, you can make a copy of the original repository in your own GitHub account. This means we can view or make changes without making the changes affecting the original.
+
+Log into GitHub and locate the GitHub Repository. At the top of the Repository there is a "Fork" button about the "Settings" button on the menu. You should now have a new copy of the original repository in your own GitHub account.
+
+##CREDITS
+
+- ## CODE
   - The homepage layout was inspired by the project [Love Running](https://github.com/Code-Institute-Org/love-running-rebuild/blob/master/unit-18-added-gallery-contents/assets/css/style.css) by [Code Institute](https://codeinstitute.net/global/) . I then later edited and changed the page
   - I used this tutorial to help me with cantering all my images in the home page and the newsletter. [https://blog.hubspot.com/website/center-an-image-in-html](https://blog.hubspot.com/website/center-an-image-in-html)
   - I use this tutorial [https://www.w3schools.com/howto/howto\_css\_bottom\_nav.asp](https://www.w3schools.com/howto/howto_css_bottom_nav.asp) to help me anchor my footer to the bottom of the page
 - **MEDIA**
   - The hero image was from [https://www.freepik.com](https://www.freepik.com/)
 
-**ACKNOWLEDGMENTS**
+## ACKNOWLEDGMENTS
 
 - My mentor Brian Macharia helped me through many issues and hurdles along the way with expert advice on my CSS and HTML. My Brother Patrick Oldman also supported me and recommended tutorials to watch online to help with any issues.
 
-**Disclaimer**
+## Disclaimer 
 
 The content of this Website is for educational purposes only.
