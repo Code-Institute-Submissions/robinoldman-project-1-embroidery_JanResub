@@ -331,3 +331,13 @@ footer {
     height: 100px;
     background-color: rgb(190, 241, 201);
 }
+
+@media screen and (max-width: 500px) {
+    #logo {
+        font-size: 85%;
+    }
+    #menu {
+        font-size: 85%;
+    }
+
+}
