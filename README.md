@@ -244,6 +244,12 @@ HOW THIS SITE WAS DEPLOYED
 4. Change the current working directory to the location where you want the cloned directory.
 5. type git clone, and then paste the URL you copied earlier.
 
+## HOW TO UPDATE
+1. 'git add .' to add
+2. 'git commit -m' to comment and commit
+3. 'git push' to push  onto git hub
+
+
 ## FORKING
 
 Forking the GitHub Repository
